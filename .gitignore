@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But don't ignore directories, so Git can look inside them
+!*/
+
+# Don't ignore .c and .cpp files
+!*.c
+!*.cpp
+!.gitignore
